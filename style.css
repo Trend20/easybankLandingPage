@@ -53,3 +53,39 @@ nav ul li a{
     font-weight: 500;
     background: linear-gradient(to right, #3de962, #25a384);
 }
+
+/* intro styles */
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 50vw;
+}
+
+.intro-text >h1{
+    margin-bottom: 30px;
+    width: 30vw;
+    line-height: 1.2;
+    font-size: 3.5rem;
+    text-size-adjust: 10px;
+    text-emphasis: -5px;
+    font-weight: 500;
+    color: #3b3b3b;
+    letter-spacing: 2px;
+}
+
+.intro-text >p{
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+    color: #a19f9f;
+    width: 30vw;
+    line-height: 1.5;
+}
+/* emd of intro styles */
