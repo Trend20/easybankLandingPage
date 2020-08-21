@@ -211,3 +211,31 @@ nav ul li a{
     height: 30vh;
 }
 
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .logo{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.icons{
+    display: flex;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+
+.icons >li{
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.icons li img{
+    width: 1.8vw;
+    cursor: pointer;
+}
