@@ -200,4 +200,6 @@ nav ul li a{
 
 .card-text >p{
     font-size: 1.3rem;
+    color: #a19f9f;
+    width: auto;
 }
