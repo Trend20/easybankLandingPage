@@ -101,4 +101,11 @@ nav ul li a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* emd of intro styles */
+/* end of intro styles */
+
+.easy-bank{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
