@@ -203,3 +203,11 @@ nav ul li a{
     color: #a19f9f;
     width: auto;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: #29294e;
+    height: 30vh;
+}
+
