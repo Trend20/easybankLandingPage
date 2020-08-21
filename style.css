@@ -168,3 +168,36 @@ nav ul li a{
     line-height: 1.5;
     color: #a19f9f;
 }
+
+
+.updates{
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+}
+
+.updates >h1{
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    color: #615d5d;
+}
+
+.testimonials{
+    display: flex;
+}
+
+.card-title{
+    color: #a19f9f;
+    font-size: 0.8rem;
+}
+
+.card-text >h4{
+    color: #444242;
+    font-size: 1.5;
+}
+
+.card-text >p{
+    font-size: 1.3rem;
+}
