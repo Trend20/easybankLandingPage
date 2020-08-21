@@ -112,6 +112,7 @@ nav ul li a{
     background: #f3f2f2;
     position: relative;
     z-index: -10;
+    width: 100vw;
 }
 
 .reason{
@@ -136,6 +137,34 @@ nav ul li a{
 
 .services{
     display: flex;
+    justify-content: space-evenly;
     margin-left: 150px;
     height: 40vh;
+    width: 80vw;
+}
+
+.component{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: auto;
+}
+
+.component >img{
+    width: 5vw;
+}
+
+.component >h3{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #2a2929;
+}
+
+.component >p{
+    width: 18vw;
+    font-size: 1.3rem;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    color: #a19f9f;
 }
